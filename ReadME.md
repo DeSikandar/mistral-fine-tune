@@ -40,9 +40,10 @@ it will create the adapters folder in that we have weight for the model using th
 here is setups 
 
 1. create the Modelfile 
+```bash
     FROM mistral //model name
     ADAPTER ./adapters //adapter location 
-
+```
 2. run ollam command to create the model 
 
     ollama create <sqlmistral> -f Modelfile
